@@ -1,6 +1,7 @@
 # classic-cv format
 
-This template was adopted from the [LaTex CV and Resume Collection](https://github.com/jankapunkt/latexcv)
+A template to create a cv/resume with Quarto.  
+(This template was adopted from the [LaTex CV and Resume Collection](https://github.com/jankapunkt/latexcv))
 
 ![](classic-cv.png)
 
