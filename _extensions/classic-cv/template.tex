@@ -27,23 +27,17 @@
 %	DOCUMENT DEFINITION
 %
 %============================================================================%
-
-%we use article class because we want to fully customize the page and dont use a cv template
 \documentclass[10pt,A4]{article}	
 
 
 %----------------------------------------------------------------------------------------
 %	ENCODING
 %----------------------------------------------------------------------------------------
-
-%we use utf8 since we want to build from any machine
 \usepackage[utf8]{inputenc}		
 
 %----------------------------------------------------------------------------------------
 %	LOGIC
 %----------------------------------------------------------------------------------------
-
-% provides \isempty test
 \usepackage{xifthen}
 
 %----------------------------------------------------------------------------------------
@@ -51,15 +45,7 @@
 %----------------------------------------------------------------------------------------
 
 % some tex-live fonts - choose your own
-
-%\usepackage[defaultsans]{droidsans}
-%\usepackage[default]{comfortaa}
-%\usepackage{cmbright}
 \usepackage{$cvfont$}
-% \usepackage{fetamont}
-%\usepackage[default]{gillius}
-%\usepackage[light,math]{iwona}
-%\usepackage[thin]{roboto} 
 
 % set font default
 \renewcommand*\familydefault{\sfdefault} 	
@@ -72,33 +58,20 @@
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT  DEFINITIONS
 %----------------------------------------------------------------------------------------
-%define page styles using geometry
 \usepackage[a4paper]{geometry}		
-
-% for example, change the margins to 2 inches all round
 \geometry{top=1.25cm, bottom=-.1cm, left=1.5cm, right=1.5cm} 	
 
-%use customized header
 \usepackage{fancyhdr}				
 \pagestyle{fancy}
 \usepackage[colorlinks]{hyperref}
 %less space between header and content
 \setlength{\headheight}{-5pt}		
 
-
-%customize entries left, center and right
-%\lhead{}
-%\chead{}
-%\rhead{}
-
-
-%indentation is zero
 \setlength{\parindent}{0mm}
 
 %----------------------------------------------------------------------------------------
 %	TABLE /ARRAY DEFINITIONS
 %---------------------------------------------------------------------------------------- 
-
 %for layouting tables
 \usepackage{multicol}			
 \usepackage{multirow}
@@ -113,17 +86,9 @@
 %----------------------------------------------------------------------------------------
 %	GRAPHICS DEFINITIONS
 %---------------------------------------------------------------------------------------- 
-
-%for header image
 \usepackage{graphicx}
-
-%for floating figures
 \usepackage{wrapfig}
 \usepackage{float}
-%\floatstyle{boxed} 
-%\restylefloat{figure}
-
-%for drawing graphics		
 \usepackage{tikz}				
 \usetikzlibrary{shapes, backgrounds,mindmap, trees}
 
@@ -186,9 +151,7 @@
 %
 \newcommand{\metasection}[2]
 {
-%\begin{tabular*}{1\textwidth}{r r}
 \footnotesize{#2} \hspace*{\fill} \footnotesize{#1}\\[1pt]
-%\end{tabular*}
 }
 
 %----------------------------------------------------------------------------------------
@@ -233,8 +196,6 @@
 
 \begin{document}
 
-
-%use our custom fancy header definitions
 \pagestyle{fancy}
 
 %---------------------------------------------------------------------------------------
