@@ -1,24 +1,16 @@
-# Quartocv Format
+# classic-cv format
+
+This template was adopted from the [LaTex CV and Resume Collection](https://github.com/jankapunkt/latexcv)
+
+![](classic-cv.png)
 
 ## Installing
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto use template <github-organization>/quartocv
+quarto use template schochastics/classic-cv
 ```
-
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
-
-## Using
-
-*TODO*: Describe how to use your format.
+This will install the extension and create an example qmd file that you can use as a starting place for your cv.
 
 ## Format Options
 
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
-
+see the template for all possible format options
